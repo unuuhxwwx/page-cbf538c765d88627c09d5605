@@ -1,0 +1,352 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Private — 一个关于「私密」的订阅，一份写给慢速网络时代的情书</title><meta name="description" content="Private 是一个以「私密」为名的连接订阅。这里没有夸大的速度承诺，只有一张按设备、流量与场景分层的价目表，以及一位专栏作者对隐私、带宽与日常上网的诚实观察。基础版 ¥15/月、旗舰版 ¥35/月、团队版 ¥85/月，支持按月或按年付费。"><meta name="keywords" content="Private, 私密连接, 订阅服务, 网络隐私, 流量套餐, 多设备在线, IPLC 专线, 流媒体解锁, 企业定制路由, 独立静态页面"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-c97a774932.qcogb.cn/"><meta property="og:type" content="website"><meta property="og:title" content="Private — 一个关于「私密」的订阅，一份写给慢速网络时代的情书"><meta property="og:description" content="Private 是一个以「私密」为名的连接订阅。这里没有夸大的速度承诺，只有一张按设备、流量与场景分层的价目表，以及一位专栏作者对隐私、带宽与日常上网的诚实观察。基础版 ¥15/月、旗舰版 ¥35/月、团队版 ¥85/月，支持按月或按年付费。"><meta property="og:url" content="https://p-c97a774932.qcogb.cn/"><meta property="og:site_name" content="Private"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-c97a774932.qcogb.cn/", "name": "Private — 一个关于「私密」的订阅，一份写给慢速网络时代的情书", "description": "Private 是一个以「私密」为名的连接订阅。这里没有夸大的速度承诺，只有一张按设备、流量与场景分层的价目表，以及一位专栏作者对隐私、带宽与日常上网的诚实观察。基础版 ¥15/月、旗舰版 ¥35/月、团队版 ¥85/月，支持按月或按年付费。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="cbf538c765d88627c09d5605:9f7d074ccfe90d48ff632c2e66d31320e769e361c4cde01a8c9cc71559534afb:4c83e2f0ba2723826248"></head><body id="top"><style>
+:root{--bg:#ececf1;--paper:#f7f7fa;--ink:#141219;--muted:#5a5666;--line:#d9d8e0;--violet:#6a2cff;--violet-deep:#3b12a6;--violet-wash:#efe9ff;--violet-tint:#f4f0ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",system-ui,sans-serif;line-height:1.75;padding-bottom:96px;-webkit-font-smoothing:antialiased}
+main{max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+/* ---------- HERO : poster ---------- */
+.hero{min-height:96vh;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero::before{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(90deg,transparent 0 calc(100% / 12 - 1px),rgba(106,44,255,.07) calc(100% / 12 - 1px) calc(100% / 12));pointer-events:none}
+.hero-inner{position:relative;z-index:1}
+.kicker{font-size:.78rem;letter-spacing:.34em;text-transform:uppercase;color:var(--violet-deep);font-weight:700;margin:0 0 clamp(20px,4vw,40px)}
+.wordmark{font-size:clamp(3.6rem,17vw,12.5rem);line-height:.86;font-weight:900;letter-spacing:-.03em;margin:0;color:var(--ink);word-break:break-word}
+.wordmark .accent{color:var(--violet)}
+.hero-sub{font-size:clamp(1.05rem,2.4vw,1.5rem);max-width:34ch;color:var(--muted);margin:clamp(24px,4vw,44px) 0 0;font-weight:500}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:clamp(28px,5vw,52px);padding-top:22px;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted);letter-spacing:.02em}
+.hero-meta b{color:var(--ink);font-weight:700}
+
+/* ---------- generic section ---------- */
+section{padding:clamp(56px,9vw,110px) 0;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:none}
+.eyebrow{font-size:.76rem;letter-spacing:.28em;text-transform:uppercase;color:var(--violet-deep);font-weight:700;margin:0 0 18px}
+h2{font-size:clamp(1.9rem,4.4vw,3rem);line-height:1.12;letter-spacing:-.015em;margin:0 0 26px;font-weight:800;max-width:22ch}
+h3{font-size:clamp(1.15rem,2.2vw,1.4rem);margin:0 0 10px;font-weight:700;letter-spacing:-.01em}
+p{margin:0 0 1.15em;color:var(--ink)}
+.lede{font-size:clamp(1.05rem,2vw,1.28rem);color:var(--muted);max-width:52ch;font-weight:500}
+.muted{color:var(--muted)}
+
+/* ---------- two column essay ---------- */
+.split{display:grid;grid-template-columns:1fr;gap:clamp(28px,5vw,64px)}
+@media(min-width:820px){.split{grid-template-columns:1.05fr .95fr;align-items:start}}
+.pull{font-size:clamp(1.4rem,3vw,2rem);line-height:1.3;font-weight:800;letter-spacing:-.02em;color:var(--violet-deep);border-left:4px solid var(--violet);padding-left:20px;margin:0}
+.aside-card{background:var(--violet-tint);border-radius:14px;padding:clamp(22px,3vw,32px)}
+.aside-card h3{margin-top:0}
+
+/* ---------- numbered list ---------- */
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:20px 0 20px 62px;border-bottom:1px dashed var(--line)}
+ol.steps li:last-child{border-bottom:none}
+ol.steps li::before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:16px;font-size:1.6rem;font-weight:900;color:var(--violet);letter-spacing:-.02em}
+ol.steps strong{display:block;font-size:1.05rem;margin-bottom:4px}
+
+/* ---------- cards : left colour bar ---------- */
+.cards{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:720px){.cards{grid-template-columns:1fr 1fr}}
+.card{background:var(--paper);border-radius:12px;border-left:5px solid var(--violet);padding:22px 24px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.card.alt{border-left-color:var(--violet-deep)}
+.card p{margin:0;color:var(--muted);font-size:.98rem}
+.card .tag{display:inline-block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--violet-deep);font-weight:700;margin-bottom:8px}
+
+/* ---------- plans : vertical stack ---------- */
+.plan{background:var(--paper);border-radius:16px;border:1px solid var(--line);padding:clamp(24px,4vw,40px);margin-bottom:20px;position:relative}
+.plan.featured{border-color:var(--violet);background:linear-gradient(180deg,var(--violet-wash),var(--paper) 40%)}
+.ribbon{position:absolute;top:22px;right:22px;background:var(--violet);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.1em;padding:6px 12px;border-radius:999px}
+.plan-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px 20px;margin-bottom:6px}
+.plan-name{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:800;letter-spacing:-.01em;margin:0}
+.plan-price{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:900;color:var(--violet-deep);margin:0;letter-spacing:-.02em}
+.plan-price small{font-size:.9rem;font-weight:600;color:var(--muted)}
+.plan-annual{font-size:.92rem;color:var(--muted);margin:0 0 20px}
+.plan-annual b{color:var(--ink)}
+.feat{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:640px){.feat{grid-template-columns:1fr 1fr;gap:12px 28px}}
+.feat li{position:relative;padding-left:26px;font-size:.98rem;color:var(--ink)}
+.feat li::before{content:"";position:absolute;left:0;top:.55em;width:12px;height:12px;border-radius:3px;background:var(--violet);opacity:.85}
+.feat li:nth-child(even)::before{background:var(--violet-deep)}
+.feat li span{color:var(--muted)}
+
+/* ---------- clients : ticket style ---------- */
+.tickets{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:720px){.tickets{grid-template-columns:repeat(3,1fr)}}
+.ticket{border:2px dashed var(--violet);border-radius:12px;padding:20px 22px;background:var(--violet-tint)}
+.ticket .os{font-size:1.2rem;font-weight:800;letter-spacing:-.01em;margin:0 0 4px}
+.ticket .note{font-size:.86rem;color:var(--muted);margin:0}
+.client-guide{margin-top:26px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:clamp(22px,3vw,32px)}
+.client-guide h3{margin-top:0}
+
+/* ---------- faq : details ---------- */
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item:first-of-type{border-top:1px solid var(--line)}
+details summary{cursor:pointer;list-style:none;padding:22px 46px 22px 0;font-size:clamp(1.05rem,2vw,1.2rem);font-weight:700;position:relative;transition:color .2s}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";position:absolute;right:0;top:18px;font-size:1.6rem;font-weight:400;color:var(--violet);line-height:1}
+details[open] summary::after{content:"–"}
+details[open] summary{color:var(--violet-deep)}
+details .answer{padding:0 0 24px;color:var(--muted);max-width:66ch}
+details .answer p{margin:0 0 .8em}
+details .answer p:last-child{margin-bottom:0}
+
+/* ---------- closing ---------- */
+.closing{text-align:left}
+.closing .big{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;letter-spacing:-.02em;line-height:1.2;max-width:24ch;margin:0 0 20px}
+.signoff{color:var(--muted);font-size:.95rem;margin-top:26px}
+.signoff b{color:var(--ink)}
+
+/* ---------- footer nav (fixed bottom) ---------- */
+footer.navbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(236,236,241,.92);backdrop-filter:saturate(140%) blur(6px);border-top:1px solid var(--line)}
+.nav-inner{max-width:1080px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand-mark{font-weight:900;letter-spacing:-.02em;color:var(--ink)}
+.brand-mark .accent{color:var(--violet)}
+.nav-links{display:flex;gap:6px 20px;flex-wrap:wrap;font-size:.86rem}
+.nav-links a{color:var(--muted);text-decoration:none;font-weight:600;letter-spacing:.02em}
+.nav-links a:hover{color:var(--violet-deep)}
+</style><main id="top">
+
+  
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <p class="kicker">私密 · 连接 · 一份长期订阅</p>
+      <h1 class="wordmark">Pri<span class="accent">v</span>ate</h1>
+      <p class="hero-sub">把「私密」写进名字里，不是因为它更快，而是因为我们相信：好的连接，应当安静地待在你身后，不打扰你正在读的那一行字。</p>
+      <div class="hero-meta">
+        <span>三档订阅 · <b>¥15 / ¥35 / ¥85</b> 每月</span>
+        <span>支持<b>按月或按年</b>付费</span>
+        <span>覆盖 <b>3–20 台</b>设备同时在线</span>
+        <span>本页为独立说明页，非交易入口</span>
+      </div>
+    </div>
+  </header>
+
+  
+  <section id="story">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">写在最前</p>
+        <h2>为什么一家连接服务，要把自己的名字取得这么克制？</h2>
+        <p class="lede">市面上大多数同类页面，会在第一屏就向你保证「快」「稳」「全球」。我们决定反着来——先说清楚它是什么，再说清楚它不是什么。</p>
+        <p>Private 是一个以「私密」为名的连接订阅。它想解决的问题很朴素：当你在深夜打开一段视频、在通勤路上同步一份文档、或者只是想安静地把网页加载出来时，中间那条通道不应该成为负担，也不应该留下多余的痕迹。</p>
+        <p>我们不承诺某个具体的毫秒数，因为那取决于你此刻所在的网络、所在的城市、甚至手机握持的角度。我们能承诺的，是把选择权交还给你——用哪一档、连几台设备、走普通线路还是专线，都由你按当下的需要决定。</p>
+      </div>
+      <aside>
+        <blockquote class="pull">“最好的基础设施，是你几乎感觉不到它存在的那种。”</blockquote>
+        <div class="aside-card">
+          <h3>这页会告诉你什么</h3>
+          <p class="muted">一张逐行展开的价目表、几个真实的使用场景、一份上手前的阅读清单，以及关于计费、设备与流量的常见问题。所有价格与权益都直接写在这里，不藏进弹窗。</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  
+  <section id="how">
+    <div class="wrap">
+      <p class="eyebrow">使用方式</p>
+      <h2>四步，从看懂到用起来</h2>
+      <div class="split">
+        <ol class="steps">
+          <li><strong>先选档位，而不是先选功能</strong>你的设备数量和每月大概会用掉多少流量，决定了该看哪一栏。别为用不到的上限买单。</li>
+          <li><strong>按月试，再按年省</strong>拿不准就先订一个月；确定这是你会长期留着的工具，再切到按年付，通常能省下近两个月。</li>
+          <li><strong>在常用设备上装好客户端</strong>桌面、移动与系统各端都有对应形态，具体见下方「客户端」一节，按需取用即可。</li>
+          <li><strong>遇到不对，先查这一页</strong>计费、换绑、流量归属这类问题，答案都在下面的常见问题里；仍不清楚再走工单。</li>
+        </ol>
+        <div class="cards">
+          <article class="card">
+            <span class="tag">适合谁</span>
+            <h3>个人用户</h3>
+            <p>一到三台设备、以浏览与流媒体为主，基础版通常已经够用。</p>
+          </article>
+          <article class="card alt">
+            <span class="tag">进阶一点</span>
+            <h3>重度玩家</h3>
+            <p>五台设备、在意原生流媒体与游戏延迟，旗舰版是更贴合的一档。</p>
+          </article>
+          <article class="card">
+            <span class="tag">多人协作</span>
+            <h3>小团队</h3>
+            <p>二十台以内、需要统一管理与定制路由，团队版把带宽与客服一并备齐。</p>
+          </article>
+          <article class="card alt">
+            <span class="tag">边界提醒</span>
+            <h3>不适合谁</h3>
+            <p>若你需要的是可核验的性能指标或官方资质背书，请把它当作参考，而非结论。</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="plans">
+    <div class="wrap">
+      <p class="eyebrow">订阅方案</p>
+      <h2>三档，纵向摊开，一眼比完</h2>
+      <p class="lede muted">下列价格与权益均直接列于本说明页，供参考对照；实际下单请以你所使用的渠道为准。</p>
+
+      <article class="plan">
+        <div class="plan-head">
+          <h3 class="plan-name">基础版</h3>
+          <p class="plan-price">¥15<small> / 月</small></p>
+        </div>
+        <p class="plan-annual">按年付仅需 <b>¥150 / 年</b>（相当于省约 2 个月）</p>
+        <ul class="feat">
+          <li>每月 <b>100GB</b> 极速流量</li>
+          <li>支持 <b>3 台</b>设备同时在线</li>
+          <li>解锁基础流媒体</li>
+          <li>普通线路节点池</li>
+        </ul>
+      </article>
+
+      <article class="plan featured">
+        <span class="ribbon">多数人的选择</span>
+        <div class="plan-head">
+          <h3 class="plan-name">旗舰版</h3>
+          <p class="plan-price">¥35<small> / 月</small></p>
+        </div>
+        <p class="plan-annual">按年付仅需 <b>¥350 / 年</b>（相当于省约 2 个月）</p>
+        <ul class="feat">
+          <li>每月 <b>300GB</b> 极速流量</li>
+          <li>支持 <b>5 台</b>设备同时在线</li>
+          <li>全节点原生流媒体解锁</li>
+          <li>IPLC 专线游戏加速优化</li>
+          <li>7×24 优先工单支持</li>
+        </ul>
+      </article>
+
+      <article class="plan">
+        <div class="plan-head">
+          <h3 class="plan-name">团队版</h3>
+          <p class="plan-price">¥85<small> / 月</small></p>
+        </div>
+        <p class="plan-annual">按年付仅需 <b>¥850 / 年</b>（相当于省约 2 个月）</p>
+        <ul class="feat">
+          <li>每月 <b>1000GB</b> 极速流量</li>
+          <li>支持 <b>20 台</b>设备同时在线</li>
+          <li>VIP 专属高带宽节点</li>
+          <li>支持企业定制路由</li>
+          <li>专属客户经理服务</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  
+  <section id="clients">
+    <div class="wrap">
+      <p class="eyebrow">客户端</p>
+      <h2>装在哪，取决于你手边有什么</h2>
+      <p class="lede muted">Private 面向常见平台提供对应形态的接入方式。本说明页未收录经过核验的下载地址，因此下方不提供链接；请以你所使用的渠道提供的安装指引为准。</p>
+
+      <div class="tickets">
+        <article class="ticket">
+          <p class="os">桌面端</p>
+          <p class="note">Windows / macOS 等主流桌面系统，适合长时间办公与大屏观看。</p>
+        </article>
+        <article class="ticket">
+          <p class="os">移动端</p>
+          <p class="note">iOS / Android 等移动系统，随身的设备数量计入所选档位的在线上限。</p>
+        </article>
+        <article class="ticket">
+          <p class="os">其他终端</p>
+          <p class="note">部分场景可经由路由器或第三方客户端接入，具体兼容性请按渠道说明确认。</p>
+        </article>
+      </div>
+
+      <div class="client-guide">
+        <h3>上手前，请先读完这三句</h3>
+        <ol class="steps">
+          <li><strong>设备数按「同时在线」计</strong>同一时间挂在上面的机器才占用额度，换机不等于加量。</li>
+          <li><strong>流量按自然周期重置</strong>每档标注的月度流量随订阅周期滚动，未用完一般不顺延至下一期。</li>
+          <li><strong>地址一律以官方渠道为准</strong>本页面刻意不放置任何未经核实的下载或交易链接，避免误导。</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="faq">
+    <div class="wrap">
+      <p class="eyebrow">常见问题</p>
+      <h2>下单之前，你可能想问的六件事</h2>
+
+      <div class="faq-item">
+        <details>
+          <summary>按月和按年，差别到底在哪里？</summary>
+          <div class="answer">
+            <p>功能完全一致，区别只在付款节奏与总价。以旗舰版为例，按月是 ¥35／月，一年累计约 ¥420；按年则一次付 ¥350，等于省下约两个月的钱。如果你还在观望，先用一个月试试手感更稳妥。</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item">
+        <details>
+          <summary>「支持 N 台设备同时在线」怎么理解？</summary>
+          <div class="answer">
+            <p>指的是同一时刻处于连接状态的设备上限，而不是你能绑定的总数。基础版 3 台、旗舰版 5 台、团队版 20 台。超过上限时，新设备需要等旧设备断开后才能接入。</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item">
+        <details>
+          <summary>每月流量用完了会怎样？</summary>
+          <div class="answer">
+            <p>达到当月额度后，通常会进入受限状态直至下一个周期重置。不同档位额度不同（100GB／300GB／1000GB），建议按自己过去一个月的真实用量选档，而不是一味往上堆。</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item">
+        <details>
+          <summary>旗舰版的「IPLC 专线」和基础版有何不同？</summary>
+          <div class="answer">
+            <p>基础版走普通线路节点池，满足日常浏览与基础流媒体；旗舰版在此基础上增加了面向游戏的专线优化，并开放全节点原生流媒体解锁，同时附带 7×24 优先工单。若你对延迟敏感、且常在多个平台间切换，旗舰版会更合适。</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item">
+        <details>
+          <summary>团队版适合几个人一起用？</summary>
+          <div class="answer">
+            <p>它面向的是小型团队或家庭多设备场景：最高 20 台同时在线、VIP 专属高带宽节点、可配置的企业级路由，以及一位专属客户经理。若只是单人两三台设备，基础版或旗舰版通常已足够，不必为团队能力付费。</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="faq-item">
+        <details>
+          <summary>这个页面会给我下载或付款链接吗？</summary>
+          <div class="answer">
+            <p>不会。这是一份独立的说明页，用于解释 Private 的定位、方案与用法。出于审慎，我们没有在此收录任何未经核验的下载地址或交易入口——一切安装与购买，请通过你所信任的官方渠道完成。</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="end" class="closing">
+    <div class="wrap">
+      <p class="eyebrow">最后</p>
+      <p class="big">如果哪天你几乎忘了它的存在，那大概就是它做得最好的时候。</p>
+      <p class="muted">Private 不追求被记住，只希望每一次连接都安静、可控、属于你自己。愿你挑到的那一档，刚好合身。</p>
+      <p class="signoff"><b>Private</b> · 独立品牌说明页 · 内容与价格仅供参考，不构成性能或资质承诺。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="navbar">
+  <div class="nav-inner">
+    <span class="brand-mark">Pri<span class="accent">v</span>ate</span>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="#story">缘起</a>
+      <a href="#how">使用方式</a>
+      <a href="#plans">订阅方案</a>
+      <a href="#clients">客户端</a>
+      <a href="#faq">常见问题</a>
+      <a href="#top">回到顶部 ↑</a>
+    </nav>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
